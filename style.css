@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Dancing Script', cursive;
+  src: url(./Font/DancingScript-VariableFont_wght.ttf);
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Dancing Script', cursive; */
+}
+.wholeCal{
+  width: 600px;
+  /* border: 2px solid rgb(0, 98, 255); */
+  height: 85dvh;
+  margin: 0 auto;
+  /* border-radius: 12px; */
+  display: grid;
+  grid-template-rows: repeat(auto-fit,1fr);
+}
+.display{
+  background: black;
+  color: aliceblue;
+  font-size: 60px;
+  padding: 12px 15px;
+  text-align: end;
+  border-radius: inherit;
+}
+.line1{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+button{
+  padding: 10px;
+  font-size: 60px;
+}
+.linemid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.linelast{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.operator{
+  background: #DF964D;
+  color: white;
+}
+.operator:hover{
+  background: #d17a24;
+}
+.operator:active{
+  background: #246fd1;
+}
+h2{
+  text-align: center;
+  padding: 15px;
+}
